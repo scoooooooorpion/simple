@@ -30,7 +30,11 @@
                     @endauth
                 </div>
             @endif
-
+                <div>
+                    <a href="{{ url('/lang/hy') }}">Hy</a>
+                    <a href="{{ url('/lang/ru') }}">Ru</a>
+                    <a href="{{ url('/lang/en') }}">En</a>
+                </div>
             @php
                 echo __('custom.welcome');
                 echo "<br>";
